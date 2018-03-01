@@ -1,0 +1,305 @@
+/*--- Reglas generales ---*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #eceff1;
+    height: auto;
+    font-family: helvetica, arial, sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+
+/*--- barra de navegacion ---*/
+
+header #navbar{
+    position: fixed;
+    background: #ffab40;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3)
+}
+
+header nav ul {
+    position: relative;
+    display: inline-block;
+    float: right;
+    right: 10%;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 1em;
+    transition-duration: 0.3s;
+
+}
+
+header nav ul li:hover{
+    background: #ff6d00 ;
+
+}
+
+header nav ul li:active{
+    background: #ffd180 ;
+
+}
+
+header nav ul li a{
+    font-family: helvetica;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*-- Slide Show --*/
+
+#slides{
+    display: none;
+}
+
+#slides img{
+    width: 100%;
+    height: auto;
+}
+
+.slideshow {
+    position: relative;
+    width: 80%;
+    z-index: 0;
+    top: 60px;
+    margin: auto;
+}
+
+#slides div h2{
+    position: absolute;
+    margin: 50px;
+}
+
+.slidesjs-pagination{
+    background: #424242;
+    list-style: none;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li{
+    float: left;
+}
+
+.slidesjs-pagination li a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.slidesjs-pagination li a:hover{
+    background: black;
+}
+
+#slides .active{
+    background: black;
+}
+
+.slidesjs-navigation{
+    display: inline-block;
+    padding: 10px 20px;
+    float: right;
+    background: #424242;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.slidesjs-navigation:hover{
+    background: black;
+}
+
+/*-- Fin del Slide SHOW --*/
+
+
+/*--- Contenido principal ---*/
+
+.main{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+
+}
+
+.main .articles{
+    width: 70%;
+    float: left;
+    margin-top: 60px;
+}
+
+.articulos{
+    padding: 15px;
+    margin: 30px 0px;
+    background: #b3e5fc;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.3s;
+}
+
+.articulos:hover{
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.3);
+    z-index: 50;
+}
+
+.articulos hgroup{
+    padding: 10px;
+}
+
+
+.articulos p{
+    margin-top: 10px;
+}
+
+.articulos img{
+    width: 100%;
+    height: auto;
+}
+
+.articulos a{
+    position: relative;
+    float: right;
+    bottom: 10px;
+}
+
+/*-- Logo Principal --*/
+
+#logo{
+    position: relative;
+    font-family: helvetica;
+    text-decoration: none;
+    font-size: 2.2em;
+    left: 10%;
+    color: white;
+    top: 5px;
+    text-shadow: 0px 0px 15px gray;
+    transition-duration: 0.2s;
+}
+
+#logo:hover{
+    text-shadow: 0px 0px 0px;
+}
+
+/*-- Side Bar --*/
+
+aside{
+    position: relative;
+    top: 60px;
+    z-index: 0;
+    width: 30%;
+    float: left;
+    margin-top: 25px;
+}
+
+.widget{
+    position: relative;
+    width: 70%;
+    left: 15%;
+
+}
+
+aside ul{
+    list-style: none;
+    text-align: center;
+}
+
+aside ul li{
+    padding: 10px;
+    margin:5px;
+    background: #64b5f6;
+    transition-duration: 0.3s;
+    border-radius: 5px
+}
+
+aside ul li:hover{
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 40;
+    background: #bbdefb  ;
+    text-shadow: 0px 0px 10px black;
+}
+
+aside ul li:active{
+    box-shadow: 0px 0px 10px gray;
+    z-index: 20;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+aside h3{
+    text-align: center;
+}
+
+/*-- Pie de pagina --*/
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background: #1de9b6;
+    font-weight: bold;
+    color:#eceff1;
+    text-shadow: 0px 0px 10px black;
+}
+
+
+/*-- FIN DEL DOCUMENTO --*/
+
+
+/*
+----------------------------------
+Estilos del segundo documento HTML
+----------------------------------
+*/
+
+#autor {
+    position: relative;
+    font-size: 10pt;
+    float: right;
+    bottom: 23px;
+
+}
+
+#autor span{
+    text-shadow: 0px 0px 15 black;
+    color: crimson;
+    font-size: 11pt;
+}
+
+
+
+.comentarios {
+    clear: both;
+}
+
+#nombre, #email{
+    display: block;
+}
+
+textarea{
+    margin: 10px 0px;
+}
+
+#enviar {
+    display: block;
+}
+
+.img-art{
+    margin: 10px 0px;
+}
+.fpost {
+    margin: 10px 0px 0px 0px;
+}
