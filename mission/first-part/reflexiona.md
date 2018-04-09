@@ -27,18 +27,18 @@ Exlica brevemente con tus propias palabras los siguientes terminos...
 
 * **Browser:** los navegadores son aplicaciones de software de escritorio que le permiten navegar por la web
 
-* **DNS:** sistema de nombres de dominio, es el directorio telefónico de Internet.
+* **DNS:** servicio de nombres de dominio, estos facilitan recordar nombres de dominio en vez de escribir la direccion ip.
 
-* **Domain:** es un acceso directo a una computadora que está conectada a Internet.
+* **Domain:** es un nombre que identifica a un sitio web, este dominio es unico, el dominio consta de tres partes. 1: www, 2: el dominio y 3: la extension..
 
 * **Internet:** es una red de computadoras que se encuentran interconectadas a nivel mundial para compartir información.
 
 * **IP address:** es la dirección de su computadora en Internet, ejemplo:192.156.0.1
 
-* **Web app:** se denomina aplicación web a aquellas herramientas que los usuarios pueden utilizar accediendo a un servidor web a través de internet o de una intranet mediante un navegador.
+* **Web app:** son aquellas herramientas que los usuarios pueden utilizar accediendo a un servidor web a través de internet o de una intranet mediante un navegador, son populares devido a lo practico del navegador, funciona como cliente-servidor.
 
-* **Web server:** es una computadora a la que se puede acceder a través de Internet.
+* **Web server:** es una computadora a la que se puede acceder a través de Internet, su funcion principal es almacenar, procesar y entregar paginas web a los clientes.
 
-* **Website:** es una colección de páginas web relacionadas y comunes a un dominio de internet o subdominio en la World Wide Web dentro de Internet.
+* **Website:** puede ser personal, corporativo, de una dependencia u otro.. estan identificados con un nombre de dominio y publicados en algun servidor web, se pueden acceder atravez de la red.
 
-* **World wide web:** red informática mundial, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. 
+* **World wide web:** Gran telaraña mundial, es basado en paginas web y vinculos.
